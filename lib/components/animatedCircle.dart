@@ -23,7 +23,7 @@ class _GlowCircle extends State<GlowCircle>
       ),
       vsync: this,
     );
-    var animation = Tween(begin: 1.0, end: 5.0).animate(animationController);
+    Tween(begin: 1.0, end: 5.0).animate(animationController);
     animationController.addStatusListener(animationStatusListener);
     animationController.forward();
   }
