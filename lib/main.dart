@@ -130,7 +130,7 @@ class _LoginPageState extends State<LoginPage> {
                           ),
                         ),
                         Text(
-                          'By loging in, I accept the Privacy \nPolicy and Terms of Servies of \nPower2Create.',
+                          'By loging in, I accept the Privacy \nPolicy and Terms of Servies of \nCompany Name.',
                           style: TextStyle(
                               fontSize: 14.5, fontWeight: FontWeight.w500),
                         ),
